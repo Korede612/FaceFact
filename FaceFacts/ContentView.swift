@@ -33,7 +33,6 @@ struct ContentView: View {
                     }
                     Button("Add New Person", systemImage: "plus", action: addPerson)
                 }
-                
                 .searchable(text: $searchText)
         }
     }
